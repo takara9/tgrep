@@ -42,12 +42,6 @@ for file in files:
     lineNo = 0
     f = open(path)
     line = f.readline()
-    state = 0;
-
-    head = ""
-    title = ""
-    keywords = ""
-    type = ""
     
     while line:
         sline = line[:-1]
