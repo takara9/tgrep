@@ -45,8 +45,6 @@ for file in files:
     
     while line:
         sline = line[:-1]
-        rlen = len(sline)
-
         if (re.search(keyword, sline)):
             print path,"(",lineNo,")",": ",sline;
 
